@@ -1,0 +1,26 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc1": "tsc -b",
+    "start": "react-scripts start"
+  },
+  "workspaces": {
+    "packages": [
+      "api",
+      "ui",
+      "client"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-spawn": "^7.0.3",
+    "tsc": "^2.0.4",
+    "typescript": "^5.2.2"
+  }
+}
